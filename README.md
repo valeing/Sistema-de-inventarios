@@ -1,1 +1,38 @@
-echo ^# Sistema de Inventarios - UPB^<br^>Este proyecto es un sistema de gestión de inventarios desarrollado en Laravel, diseñado para facilitar el control de bienes, asignaciones, bajas y reportes dentro de una organización.^<br^>^<br^>## 🧾 Funcionalidades principales^<br^>- Gestión de bienes (altas, bajas, modificaciones)^<br^>- Asignación de bienes a usuarios/resguardantes^<br^>- Generación de reportes e inventario físico^<br^>- Autenticación y control de acceso por roles:^<br^>  - Administrador^<br^>  - Operador^<br^>  - Resguardante^<br^>- Paneles de administración y vistas organizadas^<br^>^<br^>## 🛠️ Tecnologías utilizadas^<br^>- **Laravel** (Framework principal)^<br^>- **PHP** 8+^<br^>- **MySQL** (Base de datos)^<br^>- **Bootstrap** (Diseño de interfaz)^<br^>- **JavaScript** (Interacción en el frontend)^<br^>- **Postman** (para pruebas de API)^<br^>^<br^>## ⚙️ Requisitos^<br^>- PHP >= 8.1^<br^>- Composer^<br^>- MySQL^<br^>- Node.js y NPM (para compilar assets con Vite)^<br^>^<br^>## 🚀 Instalación^<br^>1. Clona el repositorio:^<br^>   git clone https://github.com/valeing/Sistema-de-inventarios-UPB.git^<br^>   cd Sistema-de-inventarios-UPB^<br^>2. Instala dependencias PHP:^<br^>   composer install^<br^>3. Copia el archivo de entorno y configura tus variables:^<br^>   cp .env.example .env^<br^>   php artisan key:generate^<br^>4. Configura la base de datos en el archivo `.env`^<br^>5. Ejecuta las migraciones:^<br^>   php artisan migrate^<br^>6. Instala dependencias frontend:^<br^>   npm install^<br^>   npm run dev^<br^>7. Inicia el servidor:^<br^>   php artisan serve^<br^>^<br^>## 📂 Estructura general del proyecto^<br^>- `app/` - Lógica del backend^<br^>- `routes/` - Definición de rutas^<br^>- `resources/` - Vistas y assets^<br^>- `database/` - Migraciones^<br^>- `public/` - Archivos públicos^<br^>^<br^>## 🧪 Pruebas^<br^>Puedes usar Postman para probar los endpoints de la API.> README.md
+# Sistema de Inventarios - UPB
+
+Este proyecto es un sistema de gestión de inventarios desarrollado en Laravel, diseñado para facilitar el control de bienes, asignaciones, bajas y reportes dentro de la UPB.
+
+##  Funcionalidades principales
+
+- Gestión de bienes (altas, bajas, modificaciones)
+- Asignación de bienes a usuarios/resguardantes
+- Generación de reportes e inventario físico
+- Autenticación y control de acceso por roles:
+  - Administrador
+  - Operador
+  - Resguardante
+- Paneles de administración y vistas organizadas
+
+##  Tecnologías utilizadas
+
+- **Laravel** (Framework principal)
+- **PHP** 8+
+- **MySQL** (Base de datos)
+- **Bootstrap** (Diseño de interfaz)
+- **JavaScript** (Interacción en el frontend)
+- **Postman** (para pruebas de API)
+
+##  Requisitos
+
+- PHP >= 8.1
+- Composer
+- MySQL
+- Node.js y NPM (para compilar assets con Vite)
+
+##  Instalación
+
+1. Clona el repositorio:
+
+   ```bash
+   git clone https://github.com/valeing/Sistema-de-inventarios-UPB.git
+   cd Sistema-de-inventarios-UPB

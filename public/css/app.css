@@ -1,0 +1,8 @@
+.bg-login-image {
+    background-image: url('/public/img/logo2.png'); /* Ruta relativa al directorio public */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Asegúrate de llenar el contenedor */
+    border-radius: 0.5rem 0 0 0.5rem; /* Redondea solo los bordes izquierdos */
+}

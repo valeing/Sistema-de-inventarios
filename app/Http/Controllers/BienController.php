@@ -52,7 +52,7 @@ class BienController extends Controller
             'search' => $search
         ]);
 
-        // Si es una solicitud AJAX, devolver datos en JSON
+        // Si es una solicitud AJAX, devolver datos en JSON asdffasd
         if ($request->ajax()) {
             return response()->json(
                 $bienes->map(function ($bien) use ($prefix) {
@@ -361,10 +361,4 @@ class BienController extends Controller
             ->header('Content-Type', 'application/pdf')
             ->header('Content-Disposition', 'attachment; filename="Etiquetas_Bienes.pdf"');
     }
-
-
-
-
-
-
 }
